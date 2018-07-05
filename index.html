@@ -17,6 +17,7 @@
 
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/nprogress.css" rel="stylesheet">
+    <link href="css/zzsc.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
 
@@ -61,32 +62,32 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <img class="first-slide" src="images/carousel2.jpg" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                <h1>springboot整合dubbo</h1>
+                <p>采用dubbo-spring-boot注解开发dubbo，配置简单，快速搭建dubbo提供者模块.</p>
+                <p><a class="btn btn-lg btn-primary" target="_blank" href="https://github.com/zhaozhenghao1993/zh-boot-dubbo" role="button">点击查看&nbsp;&nbsp;<i class="fa fa-github"></i></a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item active carousel-item-left">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="second-slide" src="images/carousel3.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                <h1>ZH后台权限管理系统</h1>
+                <p>用于快速搭建后台系统，maven多模块开发，权限精确到按钮，配置简单，让开发者只用关注业务即可上手开发</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">进入后台管理</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item carousel-item-next carousel-item-left">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <img class="third-slide" src="images/carousel1.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <h1>微信公众号开发</h1>
+                <p>公众号消息注解开发、微信网页授权登陆、微信js调用、JWT权限、access_token封装缓存、微信后台菜单模块可视化配置.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button" id="wechat">点我关注&nbsp;&nbsp;<i class="fa fa-qrcode"></i></a></p>
               </div>
             </div>
           </div>
@@ -137,11 +138,12 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">微信公众号开发. <span class="text-muted">公众号后台管理.</span></h2>
+            <p class="lead">消息接入接口签名工具类封装，XStream解析转换XML数据消息，对消息类型、事件类型、请求消息、响应消息进行封装，通过注解的方式，将不同类型的消息分发到不同的消息处理器中处理，将响应消息封装为工具类，可方便调用，ACCESSTOKEN封装缓存，避免频繁持久化操作，微信菜单模块可视化配置。</p>
+            <p class="lead">微信网页授权接口拉取用户信息，通过store.js将页面地址存入localStorage，使得页面授权后重回原页面，引入公共授权页进行授权的分发跳转，JSSDK接口注入权限验证配置，签名算法封装工具类，对授权用户进行保存，方便后台统计查询，JWT登陆授权，localStorage存储token。</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164633e86e7%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164633e86e7%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.125%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+            <img class="featurette-image img-fluid mx-auto" alt="500x500" style="width: 500px; height: 500px;" src="images/wechat.png" data-holder-rendered="true">
           </div>
         </div>
 
@@ -149,11 +151,12 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">文件管理. <span class="text-muted">分片上传，断点续传.</span></h2>
+            <p class="lead">引入webuploader插件，通过钩子函数分片上传和合并文件，支持秒传，读取文件MD5值与数据库匹配实现秒传功能，通过Redis记录上传点，方便断点续传，文件大小、分类工具类进行封装，方便使用。</p>
+            <p class="lead">运用layer.js模仿百度网盘上传UI风格，图片通过viewer.js在线预览，mp4通过flowplayer播放插件在线播放，支持全文件下载，又是上传 又是在线播放 又是下载你们懂的呀！</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164633e86e8%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164633e86e8%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.125%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 500px; height: 500px;">
+            <img class="featurette-image img-fluid mx-auto" alt="500x500" src="images/file.png" data-holder-rendered="true" style="width: 500px; height: 500px;">
           </div>
         </div>
 
@@ -161,11 +164,22 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">后台权限管理系统. </h2>
+            <p class="lead">
+              项目基于：springmvc + spring + mybatis<br/>
+              权限框架：shiro<br/>
+              模板框架：视图thymeleaf 代码生成器velocity，同时支持freemarker、jsp<br/>
+              定时任务框架：quartz<br/>
+              Nosql数据库：Redis<br/>
+              js框架：vue.js<br/>
+              运用Jsoup作为XSS防范及脚本过滤，杜绝XSS攻击同时自定义通过标签，支持富文本提交<br/>
+              基于角色的权限管理，支持按钮操作权限与接口权限<br/>
+              支持分布式session管理，能够集群部署<br/>
+              支持Mybatis-Ehcache二级缓存<br/>
+            </p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164633e86ea%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164633e86ea%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.125%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 500px; height: 500px;">
+            <img class="featurette-image img-fluid mx-auto" alt="500x500" src="images/security.png" data-holder-rendered="true" style="width: 500px; height: 500px;">
           </div>
         </div>
 
@@ -178,10 +192,26 @@
 
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-right"><a href="https://v4.bootcss.com/docs/4.0/examples/carousel/#">Back to top</a></p>
-        <p>© 2017-2018 Company, Inc. · <a href="https://v4.bootcss.com/docs/4.0/examples/carousel/#">Privacy</a> · <a href="https://v4.bootcss.com/docs/4.0/examples/carousel/#">Terms</a></p>
+        <p>
+          QQ：736720794
+          &nbsp;&nbsp;&nbsp;<a href="https://github.com/zhaozhenghao1993/" target="_blank">zhaozhenghao</a>
+          &nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank">豫ICP备18008643号</a>
+        </p>
       </footer>
     </main>
+
+    <!-- 返回顶部代码 开始 -->
+    <div class="go-top dn" id="go-top">
+      <!--<a href="javascript:;" class="uc-2vm"></a>
+      <div class="uc-2vm-pop dn">
+        <h2 class="title-2wm">用微信扫一扫</h2>
+        <div class="logo-2wm-box">
+          <img src="images/weixin.png" alt="站长素材" width="240" height="240">
+        </div>
+      </div>
+      <a href="http://www.lanrentuku.com/about/guestbook.html" target="_blank" class="feedback"></a>-->
+      <a href="javascript:;" class="go"></a>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -193,7 +223,15 @@
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="js/holder.min.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script src="plugins/layer/layer.js"></script>
     <script src="js/nprogress.js"></script>
     <script src="js/common.js"></script>
 
-    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
+    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+      <defs>
+        <style type="text/css"></style>
+      </defs>
+      <text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text>
+    </svg>
+  </body>
+</html>
