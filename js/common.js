@@ -49,4 +49,25 @@ $(function() {
     },function(){
         $('#go-top .uc-2vm-pop').addClass('dn');
     });
+
+    $.ajax({
+        url: "http://localhost:8080/sayHello",
+        xhrFields: {
+            withCredentials: true
+        },
+        type: "post",
+        data: { name: 'haha' },
+        dataType: "text",
+        success: function(msg) {
+            alert(msg);
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+            alert(XMLHttpRequest.status);
+            alert(XMLHttpRequest.readyState);
+            alert(textStatus);
+        },
+        complete: function(XMLHttpRequest, textStatus) {
+            this; // 调用本次AJAX请求时传递的options参数
+        }
+    });
 });
